@@ -8,6 +8,7 @@ MongoClient = require('mongodb').MongoClient,
  	contacts = require('./numbers.js');
 
 
+
      require('dotenv').load();
 
 var job = new CronJob('0 30 8 * * *', updateWOD, null,true,'America/Los_Angeles');
